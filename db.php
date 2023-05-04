@@ -13,3 +13,15 @@ $Guerre_stellari_La_Minaccia_Fantasma = new Movie("Star Wars: Episodio I - La mi
 $Guerre_stellari_La_Minaccia_Fantasma->release_date = "19-05-1999";
 $Guerre_stellari_La_Minaccia_Fantasma->director = "George Lucas";
 $Guerre_stellari_La_Minaccia_Fantasma->screenwriter = "George Lucas";
+
+$La_Minaccia_Fantasma = new Movie("La Minaccia Fantasma", [$Azione]);
+$La_Minaccia_Fantasma->release_date = "19-05-1959";
+$La_Minaccia_Fantasma->director = "George Lucas";
+$La_Minaccia_Fantasma->screenwriter = "George Lucas";
+
+$La_Minaccia = new Movie("La Minaccia", [$Fantascienza, $Azione]);
+$La_Minaccia->release_date = "19-05-1899";
+$La_Minaccia->director = "George Lucas";
+$La_Minaccia->screenwriter = "George Lucas";
+
+$film_list = [$Guerre_stellari, $Guerre_stellari_La_Minaccia_Fantasma, $La_Minaccia_Fantasma, $La_Minaccia];

@@ -29,7 +29,7 @@ class Movie {
             }
         }
 
-        return  '<ul>
+        return  '<ul class="border border-black rounded-3 mb-1 p-3 list-unstyled h-100">
                     <li>Titolo del film: ' . $this->name .'</li>
                     <li>Genere del film: ' . $genresList .'</li>
                     <li>Data di rilascio: ' . $this->release_date .'</li>
